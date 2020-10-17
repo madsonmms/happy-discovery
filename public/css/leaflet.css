@@ -1,0 +1,44 @@
+.leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 20px;
+    transition: 200ms;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .leaflet-popup-content {
+    color: #0089a5;
+    margin: 0.8rem 1rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .leaflet-popup-content a {
+    width: 4rem;
+    height: 4rem;
+    background: #15c3d6;
+    box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 200ms;
+  }
+  
+  .leaflet-popup-content a:hover {
+    background: #17d6eb;
+  }
+  
+  .leaflet-popup-tip {
+    display: none;
+  }
+  
+  .leaflet-container {
+    font: 700 1.6rem/1 "Nunito", sans-serif !important;
+    z-index: 5;
+  }
+  

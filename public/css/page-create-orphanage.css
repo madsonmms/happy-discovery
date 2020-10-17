@@ -1,0 +1,25 @@
+#page-create-orphanage {
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* zerando margin top do map.css */
+.map-container {
+    margin: 0 0 4rem;
+}
+
+/* criando bordas em cima e tirando bordas em baixo do mapa */
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+}
+
+/* criando bordas em baixo e tirando bordas em cima do footer */
+.map-container footer {
+    background: #f5f8fa;
+    border-radius: 0 0 20px 20px;
+    font-size: 1.4rem;
+}
